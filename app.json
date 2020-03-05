@@ -1,8 +1,8 @@
 {
-  "name": "My App",
-  "description": "My Artificial Itelligence news blog.",
+  "name": "Example Torch",
+  "description": "Check URL category!!",
   "image": "heroku/python",
-  "repository": "https://github.com/MakwanaVihas/myaiblog.git",
+  "repository": "https://github.com/MakwanaVihas/torch_heroku.git",
   "keywords": ["python", "django" ],
   "addons": [ "heroku-postgresql" ],
   "env": {
