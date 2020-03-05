@@ -11,7 +11,7 @@ from django.views.decorators.csrf import csrf_exempt
 def index(request):
 
     if request.method == "POST":
-        input_data = JSONParser().parse(request.data)
+        input_data = JSONParser().parse(request)
         try:
             category = predict(input_data['input_url'])
             return JsonResponse({'category':category})
