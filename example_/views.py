@@ -12,15 +12,19 @@ def index(request):
 
     if request.method == "POST":
         input_data = JSONParser().parse(request.data)
-
-        category = predict(input_data['input_url'])
-        return JsonResponse({'category':category})
+        try:
+            category = predict(input_data['input_url'])
+            return JsonResponse({'category':category})
+        except KeyError:
+            return JsonResponse({'key-error':'Invalid Key'})
     return HttpResponse("MAKE POST REQUEST INSTEAD")
 
 class Predictor(APIView):
 
     def post(self,request):
         input_data = JSONParser().parse(request)
-
-        category = predict(input_data['input_url'])
-        return Response({'category':category})
+        try:
+            category = predict(input_data['input_url'])
+            return Response({'category':category})
+        except KeyError:
+            return Response({'key-error':'Invalid Key'})
