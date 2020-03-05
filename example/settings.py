@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'example_.apps.ExampleConfig'
+    'example_.apps.ExampleConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -119,3 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MODEL_ROOT = os.path.join(BASE_DIR,'model')
+
+MODEL_URL = "/model/"
