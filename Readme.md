@@ -22,7 +22,7 @@ _**DEPLOYING THE APP:**_<br />
    &nbsp;&nbsp;   `$ heroku login`<br />
 
 **Cloning this repository**:<br />
-   &nbsp;&nbsp;  go to cmd and type: <br />
+   &nbsp;&nbsp;  go to terminal and type: <br />
    &nbsp;&nbsp; `$ git clone https://github.com/MakwanaVihas/torch_heroku.git`<br />
    &nbsp;&nbsp; `$ cd torch_heroku`<br />
 
