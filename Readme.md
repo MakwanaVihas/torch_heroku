@@ -1,17 +1,17 @@
 _**Info about required files:**_
 
-The requirements.txt file:<br />
+**The requirements.txt file**:<br />
  &nbsp; &nbsp;  This contains information about libraries/packages heroku needs to install for running the app.<br />
 
-Procfile:<br />
+**Procfile**:<br />
    &nbsp;&nbsp;  This tells heroku which command to run to start your app.<br />
    &nbsp;&nbsp;  In this app it is:<br />
    &nbsp;&nbsp;  web: gunicorn example.wsgi --log-file -<br />
-runtime.txt file:<br />
+**runtime.txt file**:<br />
    &nbsp;&nbsp;  It tells which version of python is needed for runtime:<br />
    &nbsp;&nbsp;  python-3.7.6 (for this app)<br />
 
-app.json:<br />
+**app.json**:<br />
    &nbsp;&nbsp;  This contains info about your app name, app description, repo link, keywords etc.<br />
 
 _**DEPLOYING THE APP:**_<br />
