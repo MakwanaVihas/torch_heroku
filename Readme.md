@@ -22,28 +22,28 @@ _**DEPLOYING THE APP:**_<br />
    &nbsp;&nbsp;   `$ heroku login`<br />
 
 **Cloning this repository**:<br />
-  go to cmd and type: <br />
-    $ git clone https://github.com/MakwanaVihas/torch_heroku.git<br />
-    $ cd torch_heroku<br />
+   &nbsp;&nbsp;  go to cmd and type: <br />
+   &nbsp;&nbsp; `$ git clone https://github.com/MakwanaVihas/torch_heroku.git`<br />
+   &nbsp;&nbsp; `$ cd torch_heroku`<br />
 
 **Create heroku app**:<br />
-  go to terminal and type:<br />
-  $ heroku create<br />
-  Heroku generates a random name for your app, or you can pass a parameter to specify your own app name.<br />
+  &nbsp;&nbsp;  go to terminal and type:<br />
+  &nbsp;&nbsp;  `$ heroku create`<br />
+  &nbsp;&nbsp;  Heroku generates a random name for your app, or you can pass a parameter to specify your own app name.<br />
    
-  Or:<br />
-  $ heroku create app-name<br />
+  &nbsp;&nbsp;  Or:<br />
+  &nbsp;&nbsp;  `$ heroku create app-name`<br />
   
-  To rename your app afterwards run:<br />
-  $ heroku apps:rename the-new-name<br />
+  &nbsp;&nbsp;  To rename your app afterwards run:<br />
+  &nbsp;&nbsp;  `$ heroku apps:rename the-new-name`<br />
 
 **Deploying your code**:<br />
-  $ git push heroku master<br />
+  &nbsp;&nbsp;  `$ git push heroku master`<br />
 
 **Open the app**:<br />
 
-  We can now tell Heroku to start this web process:<br />
-  $ heroku ps:scale web=1<br />
+  &nbsp;&nbsp;  We can now tell Heroku to start this web process:<br />
+  &nbsp;&nbsp;  `$ heroku ps:scale web=1`<br />
   
-  $ heroku open<br />
-  this opens the app in your default browser<br />
+  &nbsp;&nbsp;  `$ heroku open`<br />
+  &nbsp;&nbsp;  this opens the app in your default browser<br />
