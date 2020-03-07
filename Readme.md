@@ -4,22 +4,22 @@ The requirements.txt file:<br />
  &nbsp; &nbsp;  This contains information about libraries/packages heroku needs to install for running the app.<br />
 
 Procfile:<br />
-   &nbsp;  &nbsp; This tells heroku which command to run to start your app.<br />
-  &nbsp;  &nbsp;  In this app it is:<br />
-    &nbsp;  &nbsp;  web: gunicorn example.wsgi --log-file -<br />
+   &nbsp;&nbsp;  This tells heroku which command to run to start your app.<br />
+   &nbsp;&nbsp;  In this app it is:<br />
+   &nbsp;&nbsp;  web: gunicorn example.wsgi --log-file -<br />
 runtime.txt file:<br />
- &nbsp;  &nbsp;   It tells which version of python is needed for runtime:<br />
-    &nbsp;  &nbsp;  python-3.7.6 (for this app)<br />
+   &nbsp;&nbsp;  It tells which version of python is needed for runtime:<br />
+   &nbsp;&nbsp;  python-3.7.6 (for this app)<br />
 
 app.json:<br />
-  This contains info about your app name, app description, repo link, keywords etc.<br />
+   &nbsp;&nbsp;  This contains info about your app name, app description, repo link, keywords etc.<br />
 
 _**DEPLOYING THE APP:**_<br />
 
 **Heroku CLI**:<br />
-  install heroku CLI according to https://devcenter.heroku.com/articles/getting-started-with-python#set-up <br />
-  login to your heroku account by typing:<br />
-    $ heroku login<br />
+   &nbsp;&nbsp;  install heroku CLI according to https://devcenter.heroku.com/articles/getting-started-with-python#set-up <br />
+   &nbsp;&nbsp;  login to your heroku account by typing:<br />
+   &nbsp;&nbsp;   `$ heroku login`<br />
 
 **Cloning this repository**:<br />
   go to cmd and type: <br />
