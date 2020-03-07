@@ -16,17 +16,17 @@ app.json:
 
 _**DEPLOYING THE APP:**_
 
-**Heroku CLI**
+**Heroku CLI**:
   install heroku CLI according to https://devcenter.heroku.com/articles/getting-started-with-python#set-up and 
   login to your heroku account by typing:
     $ heroku login
 
-**Cloning this repository**
+**Cloning this repository**:
   go to cmd and type: 
     $ git clone https://github.com/MakwanaVihas/torch_heroku.git
     $ cd torch_heroku
 
-**Create heroku app**
+**Create heroku app**:
   go to terminal and type:
   $ heroku create
   Heroku generates a random name for your app, or you can pass a parameter to specify your own app name.
@@ -37,10 +37,10 @@ _**DEPLOYING THE APP:**_
   To rename your app afterwards run:
   $ heroku apps:rename the-new-name
 
-**Deploying your code**
+**Deploying your code**:
   $ git push heroku master
 
-**Open the app**
+**Open the app**:
 
   We can now tell Heroku to start this web process:
   $ heroku ps:scale web=1
