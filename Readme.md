@@ -1,7 +1,7 @@
 _**Info about required files:**_
 
 The requirements.txt file:<br />
-  This contains information about libraries/packages heroku needs to install for running the app.<br />
+&nsbpThis contains information about libraries/packages heroku needs to install for running the app.<br />
 
 Procfile:<br />
   This tells heroku which command to run to start your app.<br />
