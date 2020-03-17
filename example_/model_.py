@@ -47,7 +47,7 @@ class RNN(nn.Module):
     def initHidden(self):
         return torch.zeros(1, self.hidden_size)
 
-loaded = torch.load(MODEL_ROOT+"/rnn_url.pt",map_location=torch.device('cpu'))
+loaded = torch.load(MODEL_ROOT+"/state_dict.pt",map_location=torch.device('cpu'))
 
 rnn = RNN(n_letters,20,3)
 rnn.load_state_dict(loaded['state_dict'])
